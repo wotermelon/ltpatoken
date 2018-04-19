@@ -1,0 +1,38 @@
+{
+  "name": "ltpa-token",
+  "version": "1.0.2",
+  "description": "Ltpa token generation and validation",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/landray/ltpa.git"
+  },
+  "keywords": [
+    "ltpa",
+    "token",
+    "authentication",
+    "validation",
+    "lotus",
+    "ibm",
+    "websphere"
+  ],
+  "author": "landray",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/landray/ltpa/issues"
+  },
+  "homepage": "https://github.com/landray/ltpa#readme",
+  "dependencies": {
+    "iconv-lite": "~0.4.10"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.1.0"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  }
+}
